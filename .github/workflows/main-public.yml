@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world public action step
-        uses: vitorsouza23/test-my-git-action@v1.0
+        uses: vitorsouza23/test-my-git-action@v1.1
         id: hello
         with:
           who-to-greet: "Ta segurando a corda Genivaldo?"
