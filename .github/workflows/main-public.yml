@@ -5,10 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Hello world private action step
-        uses: ./
+      - name: Hello world public action step
+        uses: vitorsouza23/test-my-git-action@v1.0
         id: hello
         with:
           who-to-greet: "Ta segurando a corda Genivaldo?"
